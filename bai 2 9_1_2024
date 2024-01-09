@@ -1,0 +1,24 @@
+x = input('nhap diem cua ban')
+a = []
+b = 0
+str_diemchu = a
+int_diemso = b
+
+if x <= '10':
+    a = 'A'
+    b = 4
+elif x < '8.5' and x >= '7':
+    a = 'B'
+    b = 3
+elif x < '7' and x >= '5.5':
+    a = 'C'
+    b = 2
+elif x < '5.5' and x >= '4':
+    a = 'D'
+    b = 1
+else:
+    a = 'F'
+    b = 0
+
+print('diem cua ban la: dang chu', a ,'/n diem cua ban la: dang so', b)
+
